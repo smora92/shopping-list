@@ -26,3 +26,4 @@ function main() {
 }
 
 $(main);
+// waits for the document.ready event to load in our event listeners
