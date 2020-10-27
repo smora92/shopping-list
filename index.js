@@ -21,7 +21,7 @@ function main() {
     $(this)
       .closest("li")
       .find(".shopping-item")
-      .toggleClass("shopping-Item_checked");
+      .toggleClass("shopping-Item__checked");
   });
 }
 
