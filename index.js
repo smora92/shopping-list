@@ -13,11 +13,13 @@ function main() {
     );
   });
 
-  $(document).on("click", ".shopping-item-delete", function () {
-    $(this).closest("li").remove();
+  $(".shopping-list").on("click", ".shopping-item-delete", function (event) {
+    $(event.target).closest("li").remove();
   });
 
-  $(document).on("click", ".shopping-item-toggle", function () {
+  $(".shopping-list").on("click", ".shopping-item-toggle", function (event) {
+
+    console.log(event)
     $(this)
       .closest("li")
       .find(".shopping-item")

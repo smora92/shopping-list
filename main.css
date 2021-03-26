@@ -43,6 +43,7 @@ button:hover {
   margin-bottom: 15px;
 }
 
-.shopping-item__checked {
+.shopping-Item__checked {
   text-decoration: line-through;
 }
+
